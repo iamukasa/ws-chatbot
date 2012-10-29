@@ -1,0 +1,81 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* Main application background */
+.v-app {background: white;}
+.v-loading-indicator,.v-loading-indicator-delay,.v-loading-indicator-wait {right:0;margin-right:5px}
+.h4-text{font-weight:bold;font-size:110%;}
+
+.mytickets-status-filter {margin-bottom:8px}
+.mytickets-status-filter-title {padding-left:15px}
+.labeled-data-caption{font-weight:bold}
+.ticket-view-toppanel{background-color:#eee;border:1px solid #bbb;padding:10px 10px 0 10px;}
+.ticket-view-subject{font-size:147%}
+.ticket-view-subject-caption{color:#777;font-weight:bold}
+.ticket-view-subject-value{}
+.ticket-entry{border:1px solid #bbb}
+.ticket-entry-notice{}
+.ticket-entry-enquirer{background-color:#fff}
+.ticket-entry-employee{background-color:#eee}
+.ticket-entry-system{}
+.ticket-entry-employee.ticket-entry-system{border:1px solid #bbb}
+
+.ticket-entry-system-message{font-style:italic;font-weight:bold;text-align:right;}
+.text-green{color:#468E43;}
+.text-gray{color:#777}
+.text-red{color:#F35454}
+.text-blue{color:#3B7ADA}
+.ticket-entry-author{font-style:italic;font-weight:bold;color:#777;}
+.ticket-entry-date{font-weight:bold;}
+.ticket-entry-comment{}
+.add-ticket-entry-form{}
+.ticket-entries{}
+.testing{overflow:auto !important;}
+.v-table-row-unread{font-weight:bold}
+.v-table-row-inactive{color:#666;font-style:italic}
+
+.text-center{text-align:center}
+
+/* Live Chat */
+.chatEntryUser{width:100%;position:relative;table-layout:fixed;}
+.chatEntryUserWrapper{border:1px solid gray;width:100%;position:relative;background-color:#efe}
+.incoming .chatEntryUserWrapper{background-color:#FCE8E8}
+.userAndDateWrapper{width:100%;position:relative;margin-bottom:3px;font-weight:bold}
+.chatEntryBullet{float:left;margin-left:5px;width:15px;height:18px;background-image:url(../supportcenter/img/chat-outcoming.png);background-position:center center;background-repeat:no-repeat}
+.incoming .chatEntryBullet{background-image:url(../supportcenter/img/chat-incoming.png)}
+.userAndDate{margin-left:29px}
+.chatEntries{width:100%;position:relative}
+.chatEntry{clear:left;width:100%;position:relative}
+.chatEntryWrapper{width:100%;position:relative}
+.chatEntryTime{float:left;margin-left:10px;width:80px}
+.entryContent{margin-left:119px}
+.clear-left{clear:left}
+
+.chatFileEntry{width:100%;position:relative;}
+.chatFileEntryWrapper{width:100%;position:relative;}
+.saveIcon{float:left;margin-left:30px;width:13px;height:18px;background-image:url(../supportcenter/img/save-icon.png);background-position:center center;background-repeat:no-repeat}
+.chatFileLink{margin-left:29px}
+
+.chat-status-label{color:#555;font-style:italic;font-weight:bold}
+.entryContent .v-label pre {font-family:Arial,Helvetica,Tahoma,Verdana,sans-serif}
+
+.v-multifileupload-dropzone {
+	background: #ddd !important; 
+	border:2px solid #555;
+	margin:10px !important;
+	width: 370px !important;
+	height:40px !important;
+}
+
+.v-csslayout .v-progressindicator{width:100%}
+
+.v-csslayout-v-multifileupload-uploads{width:100%;position:relative}
+
+.v-multifileupload-uploads .v-upload {
+	float:right;
+	margin-right:10px !important;
+}

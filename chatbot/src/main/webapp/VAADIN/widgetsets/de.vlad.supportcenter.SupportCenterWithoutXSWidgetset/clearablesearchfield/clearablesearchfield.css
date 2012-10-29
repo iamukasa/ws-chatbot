@@ -1,0 +1,39 @@
+/* @override http://localhost:8080/ClearableSearchField/VAADIN/widgetsets/org.vaadin.marcus.clearablesearchfield.ClearablesearchfieldWidgetset/clearablesearchfield/clearablesearchfield.css */
+
+@CHARSET "UTF-8";
+.v-clearable-searchfield {
+	border: 1px solid #999;
+	border-radius: 3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius: 3px;
+	background: #ddd;
+	
+}
+
+.v-clearable-searchfield input.search-field {
+	height: 100%;
+	margin: 0px;
+	background: #fff;
+	border: 0px solid transparent;
+	padding: 5px;
+	border-right: 1px solid #999;
+	font-size: 1em;
+	line-height: 1.2em;
+}
+
+.v-clearable-searchfield .search-field-prompt {
+	color: rgba(0, 0, 0, 0.4);
+}
+
+
+.v-clearable-searchfield .search-button {
+	height: 100%;
+	width: 60px;
+	margin: 0px;
+	margin-left: -1px;
+	border: 0px solid transparent;
+	background: transparent;
+	color: #222;
+	font-size: 1em;
+	line-height: 1.2em;
+}

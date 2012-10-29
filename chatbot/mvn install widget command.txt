@@ -1,0 +1,1 @@
+mvn install:install-file -DgroupId=org.vaadin.addons -DartifactId=superimmediatetextarea -Dversion=1.0.1 -Dfile=sita101.jar -Dpackaging=jar -DgeneratePom=true
