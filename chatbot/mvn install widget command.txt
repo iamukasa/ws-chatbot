@@ -1,1 +1,3 @@
 mvn install:install-file -DgroupId=org.vaadin.addons -DartifactId=superimmediatetextarea -Dversion=1.0.1 -Dfile=sita101.jar -Dpackaging=jar -DgeneratePom=true
+
+mvn install:install-file -DgroupId=bitoflife -DartifactId=chatterbean -Dversion=0.0.8 -Dfile=chatterbean.jar -Dpackaging=jar -DgeneratePom=true
